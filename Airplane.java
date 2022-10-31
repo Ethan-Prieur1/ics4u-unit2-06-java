@@ -1,14 +1,38 @@
-public class Aiplane {
-        private int speed;
+/**
+ * The Airplane Class.
+ *
+ * @author  Ethan Prieur
+ * @version 1.0
+ * @since   2022-10-21
+ */
 
-        public Airplane() {
-        }
+public class Airplane {
+    /**
+     * Speed Field.
+     */
+    private int speed;
 
-        public void setSpeed(int speed) {
-          this.speed = speed;
-        }
+    /**
+     * Constructor.
+     */
+    public Airplane() {
+    }
 
-        public int getSpeed() {
-          return speed;
-        }
+    /**
+     * SetSpeed() Function.
+     *
+     * @param speeds - speeds
+     */
+    public void setSpeed(final int speeds) {
+        this.speed = speeds;
+    }
+
+    /**
+     * The getSpeed() getter.
+     *
+     * @return - current speed
+     */
+    public int getSpeed() {
+        return speed;
+    }
 }
